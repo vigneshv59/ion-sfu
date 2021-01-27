@@ -15,6 +15,7 @@ require (
 	github.com/pion/dtls/v2 v2.0.4
 	github.com/pion/ice/v2 v2.0.15
 	github.com/pion/ion-log v1.0.0
+	github.com/pion/ion-sfu v0.0.0-00010101000000-000000000000
 	github.com/pion/logging v0.2.2
 	github.com/pion/rtcp v1.2.6
 	github.com/pion/rtp v1.6.2
@@ -39,3 +40,5 @@ require (
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/ini.v1 v1.51.1 // indirect
 )
+
+replace github.com/pion/ion-sfu => github.com/vigneshv59/ion-sfu v1.8.2-0.20210127204737-8e26108ca4ee
