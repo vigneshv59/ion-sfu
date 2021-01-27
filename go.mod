@@ -41,4 +41,4 @@ require (
 	gopkg.in/ini.v1 v1.51.1 // indirect
 )
 
-replace github.com/pion/ion-sfu => github.com/vigneshv59/ion-sfu v1.8.2-0.20210127204737-8e26108ca4ee
+replace github.com/pion/ion-sfu => github.com/vigneshv59/ion-sfu v1.8.1mod
